@@ -13,7 +13,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-MODEL_PATH = "model_pipelineE.pkl"
+MODEL_PATH = "model/model_pipelineE.pkl"
 
 FEATURE_ORDER = [
     "medical_unit_level", "medical_unit", "gender", "care_type",
