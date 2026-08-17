@@ -14,7 +14,11 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-MODEL_PATH = "model/random_forest_model.joblib"
+# MODEL_PATH = "model/random_forest_model.joblib"
+from pathlib import Path
+
+ROOT_DIR = Path(__file__).resolve().parent.parent
+MODEL_PATH = ROOT_DIR / "model" / "random_forest_model.joblib"
 
 FEATURE_ORDER = [
     "medical_unit_level", "medical_unit", "gender", "care_type",
