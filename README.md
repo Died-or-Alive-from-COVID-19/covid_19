@@ -1,9 +1,9 @@
 <div align="center">
     <h1> Developed by </h1>
     <div style="font-size: 24px; color: red;">
-        <p> Moaz Mohamed El Sayed </p>
-        <p> Mahmoud Khaled Mahmoud </p>
-        <p> Ahmed Mohamed Sayedahmed </p>
+        <h2> Moaz Mohamed El Sayed </h2>
+        <h2> Mahmoud Khaled Mahmoud </h2>
+        <h2> Ahmed Mohamed Sayedahmed </h2>
     </div>
 </div>
 
