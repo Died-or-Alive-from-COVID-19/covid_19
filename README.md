@@ -1,3 +1,14 @@
+<div align="center">
+    <h1> Developed by </h1>
+    <div style="font-size: 24px; color: red;">
+        <p> Moaz Mohamed El Sayed </p>
+        <p> Mahmoud Khaled Mahmoud </p>
+        <p> Ahmed Mohamed Sayedahmed </p>
+    </div>
+</div>
+
+<br>
+ 
 # COVID-19 Mortality Prediction
 
 Machine learning project that predicts whether a patient in the COVID-19 dataset died.
@@ -30,8 +41,20 @@ The notebook creates a binary target named `DIED`:
 
 ```bash
 git clone https://github.com/ahmed4mohamed4/covid_19.git
+```
+
+```bash
 cd covid_19
+```
+
+```bash
 python -m venv .venv
+```
+
+```bash
 source .venv/bin/activate
+```
+
+```bash
 pip install -r requirements.txt 
 ```
